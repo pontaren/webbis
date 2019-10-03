@@ -1,0 +1,67 @@
+body {
+    color: blue;
+    background-image: url("../images/wind.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-family: helvetica,arial;
+    margin: auto;
+    padding: 5px;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.aboutmediv {
+    width: 20%;
+    float: right;
+    position: relative;
+    right: 200px;
+    top: 140px;
+}
+
+img {
+    width: 20%;
+    transform: rotate(90deg);
+    border: solid 2px white;
+    position: relative;
+    left: 200px;
+    top: 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 79%;
+    text-align: center;
+    word-spacing: 30px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: orange;
+}

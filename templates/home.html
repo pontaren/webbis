@@ -2,9 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Pontus portfolio</title>
 </head>
 <body>
-    <h1>Huvudrubrik</h1>
+    <header>
+        <h1>Pontus Eriksson</h1>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </header>
+    <div class="portraitdiv">
+        <img src="{{ url_for('static', filename='images/katten.jpg') }}" alt="katten">
+        <div class="aboutmediv">
+            <h2>Hej! Jag är Pontus och jag är kemiingenjör</h2>
+            <p>Jag har precis tagit examen från KTH som högskoleingenjör i kemiteknik och nu söker jag nya utmaningar!</p>
+        </div>
+    </div>
 </body>
 </html>
